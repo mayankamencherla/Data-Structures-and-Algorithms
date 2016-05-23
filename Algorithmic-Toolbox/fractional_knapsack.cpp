@@ -4,6 +4,10 @@
 
 using std::vector;
 
+//Task. The goal of this code problem is to implement an algorithm for the fractional knapsack problem.
+// Given n weights and calorie values, and a weight capacity of a bag, find a way to fill
+// the bag and such that the bag has the maximum number of calories
+
 double get_optimal_value(int capacity, vector<int> weights, vector<int> values) {
 	int n = weights.size();
 	vector<double> usage(n,0.0); // array with item usages
